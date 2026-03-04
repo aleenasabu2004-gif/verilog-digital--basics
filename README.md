@@ -53,7 +53,7 @@ sim/ → Simulation waveform screenshots
 
 Simulation Output
 
-p
+
 
 ### Synchronous D Flip-Flop
 ![Synchronous DFF Waveform](sim/dff_waveform.png)
