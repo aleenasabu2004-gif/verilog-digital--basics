@@ -1,53 +1,78 @@
-# Verilog Digital Basics
+Verilog Digital Basics
 
-Collection of basic digital design modules implemented in Verilog with simulation testbenches.
+Collection of basic digital design modules implemented in Verilog HDL with simulation testbenches and waveform verification.
 
 ---
 
-## Implemented Modules
+Implemented Modules
 
-### 1️⃣ Synchronous D Flip-Flop
+1️⃣ Synchronous Reset D Flip-Flop
 
 A positive-edge triggered D flip-flop with synchronous reset.
 
-#### Features
+Features
+
 - Positive edge triggered
-- Synchronous reset
+- Reset occurs only on clock edge
 - Written in Verilog HDL
-- Verified using ModelSim testbench
+- Verified using ModelSim simulation
+
+Files
+
+- "rtl/dff_sync.v" → RTL design
+- "tb/tb_dff_sync.v" → Testbench
 
 ---
 
-## Folder Structure
+2️⃣ Asynchronous Reset D Flip-Flop
 
-rtl/ → RTL design files  
-tb/ → Testbench files  
-sim/ → Simulation waveform screenshots  
+A positive-edge triggered D flip-flop with asynchronous reset.
 
----
+Features
 
-## Files
+- Positive edge triggered
+- Reset happens immediately when reset signal is high
+- Does not wait for clock edge
+- Implemented using Verilog HDL
+- Verified using ModelSim simulation
 
-rtl/dff_sync.v → D Flip-Flop design  
-tb/tb_dff_sync.v → Testbench for simulation  
+Files
 
----
-
-## Simulation Output
-
-![D Flip-Flop Waveform](sim/dff_waveform.png)
+- "rtl/async_reset_dff.v" → RTL design
+- "tb/tb_async_reset_dff.v" → Testbench
 
 ---
 
-## Tools Used
+Folder Structure
 
-- Verilog HDL  
-- ModelSim  
-- GitHub  
+rtl/ → RTL design files
+tb/ → Testbench files
+sim/ → Simulation waveform screenshots
 
 ---
 
-## Author
+Simulation Output
 
-Aleena Sabu  
-ECE Student
+Synchronous D Flip-Flop
+
+"Synchronous DFF Waveform" (sim/dff_waveform.png)
+
+Asynchronous D Flip-Flop
+
+"Asynchronous DFF Waveform" (sim/async_dff_waveform.png)
+
+---
+
+Tools Used
+
+- Verilog HDL
+- ModelSim
+- GitHub
+
+---
+
+Author
+
+Aleena Sabu
+Electronics and Communication Engineering (ECE) Student
+
