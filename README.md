@@ -59,7 +59,7 @@ p
 ![Synchronous DFF Waveform](sim/dff_waveform.png)
 
 ### Asynchronous D Flip-Flop
-![Asynchronous DFF Waveform](sim/async dff.png)
+![Asynchronous DFF Waveform](sim/async_dff_waveform.png)
 Asynchronous D Flip-Flop
 
 
