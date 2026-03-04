@@ -53,13 +53,15 @@ sim/ → Simulation waveform screenshots
 
 Simulation Output
 
-Synchronous D Flip-Flop
+p
 
-"Synchronous DFF Waveform" (sim/dff_waveform.png)
+### Synchronous D Flip-Flop
+![Synchronous DFF Waveform](sim/dff_waveform.png)
 
+### Asynchronous D Flip-Flop
+![Asynchronous DFF Waveform](sim/async dff.png)
 Asynchronous D Flip-Flop
 
-"Asynchronous DFF Waveform" (sim/async_dff_waveform.png)
 
 ---
 
